@@ -40,23 +40,23 @@ VirtualBox Guest Additions is een verzameling drivers die je op je VM kan instal
 
 1. Zorg dat je kernel de laatste versie is:
 
-```console
-$ sudo dnf update kernel
-```
+    ```console
+    $ sudo dnf update kernel
+    ```
 
 2. Herstart de VM als er een nieuwe versie geïnstalleerd is.
 3. Installeer de nodige packages:
 
-```console
-$ sudo dnf install dkms kernel-devel kernel-headers
-```
+    ```console
+    $ sudo dnf install dkms kernel-devel kernel-headers
+    ```
 
 4. In het menu van het VM-venster, kies Devices > Install Guest Additions of gebruik snelkoppeling Host+D. Dit simuleert het insteken van een installatie-cd in de virtuele machine.
 5. In een grafische omgeving krijg je een dialoogvenster te zien dat vraagt om de installatie op te starten. Bevestig dit. Als dit niet gebeurt, ga dan naar de directory van de installatie-cd (ga kijken in `/run/media/USER/CDNAAM/`, met `USER` je eigen gebruikersnaam en `CDNAAM` het label van de Guest Additions installatie-cd). Voer in deze directory het volgende commando uit:
 
-```console
-$ sudo sh ./VBoxLinuxAdditions.run
-```
+    ```console
+    $ sudo sh ./VBoxLinuxAdditions.run
+    ```
 
 6. Herstart opnieuw de VM, daarmee zou de installatie moeten compleet zijn. Je kan dit uittesten door bv. "Seamless mode" aan te zetten
 
