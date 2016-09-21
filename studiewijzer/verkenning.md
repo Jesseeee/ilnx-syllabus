@@ -2,9 +2,43 @@
 
 ## Leerdoelen
 
+- Hulp zoeken
+- Werken op de command line
+- De plaats van bestanden op een Linux-systeem
+- Werken met bestanden en directories
+- Bestanden bewerken met een teksteditor
+
 ## Voorbereiding
 
+- Hulp zoeken
+    - Cobbaut, hst II.5, "man-pages"
+    - <http://explainshell.com/>: op deze website kan je een commando intikken met opties, enz. en je krijgt de relevante delen van de man-page te zien.
+    - <https://linux.die.net/man/>: een uitgebreide verzameling Linux man-pages online.
+    - Als je in Google "man COMMANDO" ingeeft, vind je ook snel de man-page terug.
+- Werken op de command line
+    - Zie verder in de sectie "De tekstconsole"
+- De plaats van bestanden op een Linux-systeem
+    - Cobbaut, Hst II.9, “the Linux file tree”
+- Werken met bestanden en directories
+    - Screencast “Werken met bestanden en directories”, <http://youtu.be/QChM_j8RsWA >
+    - Cobbaut, Hst II.6, “Working with directories”
+    - Cobbaut, Hst II.7, “Working with files”
+- Bestanden bewerken met een teksteditor
+    - Zie verder in de sectie "Linux teksteditors"
+    - Cobbaut, Hst V.18, "Introduction to Vi"
+
 ## Agenda
+
+Week 3:
+
+- Overlopen eventuele nog niet opgeloste problemen vorige week
+- Toelichting nieuwe opdracht
+- Werken aan nieuwe opdracht, individuele remediëring
+
+Week 4
+
+- Overlopen eventuele nog niet opgeloste problemen vorige week
+- Werken aan de opdracht, individuele remediëring
 
 ## Achtergrondinformatie
 
@@ -72,7 +106,22 @@ Dit hangt allemaal af van commando tot commando. Lees altijd de man-page! Sommig
 
 #### Expansie
 
-Expansie omvat de verschillende manieren waarop de Bash interpreter de commandoregel herschrijft voordat het effectief uitgevoerd wordt.
+Expansie omvat de verschillende manieren waarop de Bash interpreter de commandoregel herschrijft voordat het effectief uitgevoerd wordt. Er zijn maar liefst zeven vormen van expansie, die hieronder opgesomd worden. Het is niet nodig om "van buiten" te leren welke vormen er zijn en in welke volgorde die toegepast worden, maar het is wel belangrijk dat je *begrijpt* hoe dit werkt.
+
+- *Brace expansion:* een verkorte notatie met accolades, bv. `a{b,c,d}e` wordt omgezet in `abe ace ade`.
+- *Tilde expansion:* een tilde `~` wordt omgezet in het volledige pad van de home-directory van de huidige gebruiker.
+- *Parameter expansion:* expressies van de vorm `${PARAMETER}` hebben specifieke betekenissen. Enkele voorbeelden:
+    - `${naam}` wordt vervangen door de waarde van de variabele `naam`
+    - `${naam:=waarde}`: als de variabele `naam` nog geen waarde heeft, geef ze dan nu de waarde `waarde`
+    - `${naam#patroon}`: verwijder `patroon` van het *begin* van de waarde van de variabele `naam`
+    - ...
+- *Command substitution:* een expressie van de vorm `$(commando)` wordt vervangen door de uitvoer van het opgegeven commando tussen de haaktjes (opties en argumenten zijn toegelaten)
+- *Arithmetic expansion:* rekenkundige expressies van de vorm `$(( expressie ))` worden uitgerekend
+- *Process substitution:* hiermee kan je de uitvoer van een commando gebruiken als de invoer van een ander commando (later meer hierover in het hoofdstuk over *redirection*).
+- *Word splitting:* de commandoregel, na toepassen van de vorige types van expansie, wordt opgesplitst in verschillende "woorden". Elk woord wordt als een aparte optie/argument beschouwd. Normaal geldt de spatie als het splitsingsteken, maar je kan dit ook instellen (via de shellvariabele `${IFS}`).
+- *Filename expansion:* tenslotte worden "wildcards" in bestandsnamen verwerkt (bv. `*`, `?`, `[...]`). Later in de cursus wordt dit in meer detail besproken
+
+Pas na toepassen van al deze expansieregels wordt het commando effectief uitgevoerd. Je kan het resultaat van expansie door de shell bekijken. Na uitvoeren van het commando `set -x` wordt telkens de resulterende commandoregel getoond. Met `set +x` zet je dit terug uit.
 
 ### Linux texteditors
 
@@ -118,3 +167,13 @@ In onderstaande tabel vind je een kort overzichtje van de belangrijkste commando
 | Plakken (op de cursorpositie) | `P`                    |
 | Zoeken naar PATROON (regex)   | `/PATROON[Enter]`      |
 | Vorige/volgende zoeken        | `N` / `n`              |
+
+Voor een lijstje met nog meer commando's, ga eens kijken naar <https://github.com/bertvv/cheat-sheets/blob/master/src/Vim.md>.
+
+### Tekstbestanden bekijken
+
+Naast deze teksteditors zijn er ook enkele commando’s die nuttig zijn voor het bekijken van tekstbestanden zonder ze te bewerken: cat en less.
+
+Met `cat BESTAND` druk je de inhoud van BESTAND af op de terminal. Dit is perfect voor kleine bestandjes, maar voor grote stukken tekst die meer dan één scherm innemen is cat minder geschikt.
+
+Met `less BESTAND` kan je bestanden openen om te bekijken, pagina per pagina. Je kan naar boven en beneden met de pijltjes, spatiebalk, `[PgUp]` en `[PgDn]`. Er is ook een zoekfunctie die werkt zoals die in Vim: `/STRING`. Je kan less verlaten met de `q` toets. Met `h` open je de help-functie.
