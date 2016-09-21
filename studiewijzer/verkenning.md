@@ -20,7 +20,7 @@
 - De plaats van bestanden op een Linux-systeem
     - Cobbaut, Hst II.9, “the Linux file tree”
 - Werken met bestanden en directories
-    - Screencast “Werken met bestanden en directories”, <http://youtu.be/QChM_j8RsWA >
+    - Screencast “Werken met bestanden en directories”, <http://youtu.be/QChM_j8RsWA>
     - Cobbaut, Hst II.6, “Working with directories”
     - Cobbaut, Hst II.7, “Working with files”
 - Bestanden bewerken met een teksteditor
