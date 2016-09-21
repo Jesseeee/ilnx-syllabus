@@ -1,41 +1,11 @@
-# Praktisch
+# Besturingssystemen - Linux
 
-## Opbouw cursus
+In deze repository vind je de studiewijzer en oefeningen voor het onderdeel Linux-praktijk in de cursus Besturingssystemen van de opleiding professionele bachelor toegepaste informatica aan de faculteit Bedrijf en Organisatie van de Hogeschool Gent. Het is geen handboek in die zin dat niet alle leerstof in dit document vervat zit. Je kan in de leerwijzer wel alle nodige informatie over het opleidingsonderdeel vinden: enerzijds alle praktische afspraken en verwachtingen, en anderzijds de leerdoelen die je in de loop van de cursus zal te verwerken krijgen, samen met verwijzingen naar bijkomende leermaterialen die je kan gebruiken om de opdrachten aan te pakken.
 
-Deze cursus is opgedeeld in een aantal hoofdstukken waar telkens een bepaald thema aan bod komt. Sommige hoofdstukken worden in één lesweek afgewerkt, over andere doen we twee weken. Je kan de planning over het semester van de verschillende hoofdstukken verderop vinden. Deze planning is uiteraard onder voorbehoud van eventuele verlofdagen, voorsprong of achterstand in een bepaalde groep en andere onvoorziene omstandigheden.
+We beseffen dat Linux leren niet zo evident is als je gewend bent met Windows (of eventueel MacOS) te werken. Linux wordt bij uitstek gebruikt in datacenters met honderden of duizenden servers of virtuele machines. Die hebben geen grafische gebruikersinterface, dus moeten we veel gebruik maken van de command-line. Voor velen lijkt dit op het eerste zicht een hele stap achteruit, terug naar de dagen van MS-DOS. Toch loont het de moeite om de inspanning te leveren die nodig is om je in te werken in dit besturingssysteem. De Linux command-line is bijzonder krachtig en laat je toe terugkerende taken verregaand te automatiseren. Dat is ook één van de oorzaken van het succes van Linux in grote serverparken. De meeste grote Internet-bedrijven zoals Google, Amazon, Facebook, Twitter, Spotify, enz. hebben net daarom voluit voor Linux gekozen. De flexibiliteit en controle die een Linux-systeem biedt is voor deze bedrijven zelfs belangrijker dan het feit dat Linux open source en gratis is. Verder is Linux de marktleider in de zogenaamde “embedded” systemen, d.w.z. apparaten die je niet meteen als een computer herkent, maar die wel een volwaardig besturingssysteem bevatten. Linux wordt gebruikt in veel elektronische apparaten voor thuisgebruik zoals tv's, mediaspelers, spelconsoles, routers, netwerkschijven, enz.Linux op de desktop blijft slechts een fractie van het marktaandeel innemen, en dit zal waarschijnlijk wel altijd zo blijven. Toch is Linux een volwaardig alternatief, in het bijzonder voor bv. software-ontwikkelaars (ihb web) of specialisten netwerkbeveiliging.
 
-In elk hoofdstuk vind je:
+De bedoeling van deze cursus is de student tot op zekere hoogte vertrouwd te maken met Linux en het te leren inzetten als webserver (met Apache). Als je wil verder gaan in de richting van systeem- en netwerkbeheer, is Linux een OS waar je niet meer naast kan kijken. Een minimumkennis is dan een meerwaarde, zelfs al ben je niet meteen van plan een voltijds Linux systeembeheerder te worden. Maar ook als software-ontwikkelaar is het nuttig om er een en ander van af te weten. Je zal hoogstwaarschijnlijk hetzij webapplicaties, hetzij mobiele applicaties gaan ontwikkelen. Linux is een van de meest gebruikte platformen voor het draaien van webapplicaties, in combinatie met bv. Apache, MySQL en PHP (afgekort tot LAMP). Ook het mobiele besturingssysteem Android is gebaseerd op Linux (met Java als software-ontwikkelingsplatform). Als Mac-gebruiker bent, zal je ook een en ander opsteken van deze cursus. Het besturingssysteem Mac OS X behoort net als Linux tot de UNIX-familie en veel tools en commando's die je hier zal leren kennen, kan je ook op de Mac gebruiken.
 
-- De leerdoelen voor het hoofdstuk;
-- Voorbereiding, wat je al kan doen om je op de opdracht voor te bereiden (we verwachten dat je dit doet buiten de contactmomenten!);
-- Agenda van de les(sen) binnen dit hoofdstuk.
-- Eventueel extra informatie
+De cursus is zoveel mogelijk praktijkgericht opgezet. Het is onmogelijk om te leren omgaan met een nieuw besturingssysteem zonder er ook effectief mee aan de slag te gaan. Klassieke theorielessen worden dan ook tot een minimum beperkt. Dat betekent langs de andere kant dat je je als student een stuk actiever moet gaan gedragen, zowel tijdens als buiten de lesuren. Wij engageren ons langs onze kant om een stimulerende leeromgeving aan te bieden en je zo goed mogelijk te coachen.
 
-## Studiemateriaal
-
-We gebruiken als handboek “Linux Fundamentals” (Cobbaut, 2013). Dit is gratis en beschikbaar hetzij via het Internet, hetzij via de Chamilo-cursus voor dit vak. Doorheen deze syllabus verwijzen we telkens naar de relevante secties van dit handboek.
-
-Verder kan je een groot deel van de leerstof in de vorm van videolessen bekijken. Je vindt alle beschikbare video’s via : <http://www.youtube.com/playlist?list=PLVNAsM9wXC__nAV5I97lJeg53mhwvStfT>.
-
-## Verloop van de lessen
-
-Een typische les verloopt als volgt:
-
-- **Voorbereiding.** We verwachten dat je dit al doet voordat de les begint. In elk hoofdstuk vind je een lijstje van leermaterialen die je kan gebruiken om kennis te maken met het onderwerp.
-- **Retrospectieve.** Aan het begin van de les komen we eerst even terug op eventuele problemen die jullie de vorige les gemeld hebben. We geven meer uitleg, of verwijzen naar extra leermateriaal.
-- **Toelichting.** We overlopen de inhoud van het hoofdstuk en bespreken de belangrijkste begrippen, commando's, ...
-- **Uitwerken opdracht.** De hoofdmoot van een les bestaat uit het uitwerken van een opdracht of een reeks oefeningen. Tijdens deze oefeningen kan je vragen stellen als je vast zit. Waar nodig krijg je individueel of klassikaal uitleg.
-- **Reflectie.** We sluiten elk hoofdstuk af met een reflectie over hoe de opdracht verlopen is. We doen dit aan de hand van enkele vragen:
-    - In hoeverre heb je de doelstellingen van de opdracht gehaald? Wat ging goed? Wat ging minder goed?
-    - Wat heb je geleerd?
-    - Wat begrijp je nog niet?
-
-De resultaten gebruiken we om te kunnen opvolgen hoe ver elke student staat en waar er eventueel nog moeilijkheden zitten. Daar kunnen we dan tijdens de volgende les op terugkomen als dat nodig is. Dit is voor ons een hulpmiddel om de lessen beter af te stemmen op jullie noden. De antwoorden worden uitdrukkelijk niet gebruikt om je te quoteren op de opdrachten! Er staan inderdaad wel punten op (zie de Sectie Evaluatie), maar het gaat er om dat je de reflectieformulieren op een ernstige manier invult. Je hebt dus het meeste belang bij het eerlijk beantwoorden van de vragen, in het bijzonder als je moeite had met sommige opdrachten.
-
-## Evaluatie
-
-De lessen Linux zijn een onderdeel van het opleidingsonderdeel Besturingssystemen. De precieze puntenverdeling van de verschillende onderdelen wordt gepubliceerd op Chamilo.
-
-Het onderdeel Linux wordt vooral geëvalueerd aan de hand van een gequoteerde oefening op computer. Meer bepaald krijg je beschikking over een machine met een installatie van Fedora zonder grafische gebruikersomgeving en zonder netwerkverbinding, maar wel met alle nodige software geïnstalleerd, inclusief de man-pages. Dit systeem wordt al op voorhand ter beschikking gesteld in de vorm van een VirtualBox VM op <https://tinfbo2.hogent.be/pub/vm/testlinux.ova>. Zo kan je dit alvast vooraf leren kennen en uitproberen.
-
-Het schriftelijk examen gaat vooral over het algemene deel van de cursus dat behandeld wordt in de hoorcolleges, maar er zullen wel enkele Linux-vragen op het examen verschijnen.
+Veel succes!
