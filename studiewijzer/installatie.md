@@ -17,6 +17,7 @@ Raadpleeg de gerefereerde bronnen *voor* het begin van de les!
     - Screencast "Installatie Fedora 18 onder VirtualBox" <http://www.youtube.com/watch?v=1Rcf8-yk6_o> (dit is voor een oudere versie van Fedora, maar de installatie loopt nog steeds op ongeveer dezelfde manier)
 - Softwarepakketten kunnen installeren in een Linux-systeem
     - Screencast: “Fedora 18 tips & tricks”, <http://www.youtube.com/watch?v=Ib5J67XQ8J4>
+    - Fedora System Administrator's Guide, hst 6, "DNF" <https://docs.fedoraproject.org/en-US/Fedora/24/html/System_Administrators_Guide/ch-DNF.html>
 - Gebruikers en groepen kunnen beheren
     - Screencast: “Gebruikers en groepen”, <http://www.youtube.com/watch?v=5MfeegzjbSY>
     - Linux Fundamentals, Deel VII, Local user management, p.186. <http://linux-training.be/linuxfun.pdf>
