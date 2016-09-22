@@ -14,6 +14,12 @@ In deze repository vind je de studiewijzer en oefeningen voor het onderdeel Linu
 
 ## Oefeningen
 
+* [Linux installeren](labos/labo-1-installatie.md)
+* [Linux leren kennen](labos/labo-1-installatie.md)
+* [Werken met tekst](labos/labo-3-tekst.md)
+* [Een webserver opzetten](labos/labo-4-webserver.md)
+* [Bestandspermissies](labos/labo-5-bestandspermissies.md)
+* [Systeembeheertaken automatiseren met scripts](labos/labo-6-scripts.md)
 
 ## Vragen/opmerkingen
 
