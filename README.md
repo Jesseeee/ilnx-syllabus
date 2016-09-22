@@ -9,8 +9,11 @@ In deze repository vind je de studiewijzer en oefeningen voor het onderdeel Linu
 * [Linux leren kennen](studiewijzer/verkenning.md)
 * [Werken met tekst](studiewijzer/tekst.md)
 * [Een webserver opzetten](studiewijzer/webserver.md)
-* Bestandspermissies
-* Systeembeheertaken automatiseren met scripts
+* [Bestandspermissies](studiewijzer/bestandspermissies.md)
+* [Systeembeheertaken automatiseren met scripts](studiewijzer/scripts.md)
+
+## Oefeningen
+
 
 ## Vragen/opmerkingen
 
