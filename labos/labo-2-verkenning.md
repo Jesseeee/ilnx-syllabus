@@ -4,73 +4,73 @@
 
 1. Hoe vraag je op de command-line documentatie op voor het *commando* `passwd`?
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 2. Hoe vraag je documentatie op voor het *configuratiebestand* `/etc/passwd`?
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 3. Hoe vraag je een lijst op van alle documentatie die de string `passwd` bevat?
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 ## Werken op de command-line
 
 1. Wat is de huidige datum en uur?
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 2. Wat is de huidige directory?
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 3. Toon de inhoud van de huidige directory. De uitvoer zou er ongeveer zo moeten uit zien:
 
-        ```
-        $ COMMANDO
-        Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
-        ```
+    ```
+    $ COMMANDO
+    Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+    ```
 
 4. Toon de inhoud van de huidige directory, maar toon voor elk bestand meer informatie en ook "verborgen" bestanden.
 
-        ```
-        $ COMMANDO
-        total 96
-        drwx------. 14 student student 4096 Sep 24 09:14 .
-        drwxr-xr-x.  3 root    root    4096 Sep 20 13:46 ..
-        -rw-------.  1 student student  146 Sep 20 14:06 .bash_history
-        -rw-r--r--.  1 student student   18 Mar 11  2013 .bash_logout
-        -rw-r--r--.  1 student student  193 Mar 11  2013 .bash_profile
-        -rw-r--r--.  1 student student  124 Mar 11  2013 .bashrc
-        drwx------.  8 student student 4096 Sep 20 13:54 .cache
-        drwxr-xr-x. 16 student student 4096 Sep 20 13:55 .config
-        drwxr-xr-x.  2 student student 4096 Sep 20 13:53 Desktop
-        drwxr-xr-x.  2 student student 4096 Sep 20 13:53 Documents
-        drwxr-xr-x.  2 student student 4096 Sep 20 13:53 Downloads
-        [...]
-        ```
+    ```
+    $ COMMANDO
+    total 96
+    drwx------. 14 student student 4096 Sep 24 09:14 .
+    drwxr-xr-x.  3 root    root    4096 Sep 20 13:46 ..
+    -rw-------.  1 student student  146 Sep 20 14:06 .bash_history
+    -rw-r--r--.  1 student student   18 Mar 11  2013 .bash_logout
+    -rw-r--r--.  1 student student  193 Mar 11  2013 .bash_profile
+    -rw-r--r--.  1 student student  124 Mar 11  2013 .bashrc
+    drwx------.  8 student student 4096 Sep 20 13:54 .cache
+    drwxr-xr-x. 16 student student 4096 Sep 20 13:55 .config
+    drwxr-xr-x.  2 student student 4096 Sep 20 13:53 Desktop
+    drwxr-xr-x.  2 student student 4096 Sep 20 13:53 Documents
+    drwxr-xr-x.  2 student student 4096 Sep 20 13:53 Downloads
+    [...]
+    ```
 
 5. Toon de inhoud van de hoofddirectory van het Linux-systeem, ook vaak de root-directory genoemd. Geef een uitgebreide listing zoals in de vorige vraag, maar *zonder* verborgen bestanden.
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 6. Wat betekenen volgende elementen van de uitvoer hierboven?
     - 1e kolom (bv. `drwxr-xr-x.`): ...
@@ -82,31 +82,31 @@
     - de aanduiding `->` (bv. `bin -> usr/bin`): ...
 7. Hoe kan je commando's die je voordien uitgevoerd hebt terug ophalen (de "commandogeschiedenis")?
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 ## De plaats van bestanden op een Linux-systeem
 
 Vul de tabel hieronder aan. In de linkerkolom vind je de namen van een directory, in de rechter het soort bestanden dat er in thuis hoort.
 
-| Directory                         | Inhoud                                                  |
-| :---                              | :---                                                    |
-| `/bin`, `/usr/bin`                |                                                         |
-|                                   | Uitvoerbare bestanden voor systeembeheertaken           |
-| `/var`                            |                                                         |
-|                                   | Tijdelijke bestanden                                    |
-| `/opt`, `/usr/local`              |                                                         |
-|                                   | Home-directory van de `root` gebruiker                  |
-|                                   | Home-directory van de gebruiker `student`               |
-|                                   | De inhoud van de man-pages                              |
-|                                   | Andere documentatie                                     |
-| `/lib`, `/usr/lib`, `lib64`, enz. |                                                         |
-|                                   | De inhoud van de installatie-cd voor Guest Additions(*) |
-| `/dev`                            |                                                         |
-| `/proc`                           |                                                         |
-|                                   | Systeemconfiguratiebestanden                            |
+| Directory                     | Inhoud                                                  |
+| :---                          | :---                                                    |
+| `/bin`, `/usr/bin`            |                                                         |
+|                               | Uitvoerbare bestanden voor systeembeheertaken           |
+| `/var`                        |                                                         |
+|                               | Tijdelijke bestanden                                    |
+| `/opt`, `/usr/local`          |                                                         |
+|                               | Home-directory van de `root` gebruiker                  |
+|                               | Home-directory van de gebruiker `student`               |
+|                               | De inhoud van de man-pages                              |
+|                               | Andere documentatie                                     |
+| `/lib`, `/usr/lib`, `lib64`, enz. |                                                     |
+|                               | De inhoud van de installatie-cd voor Guest Additions(*) |
+| `/dev`                        |                                                         |
+| `/proc`                       |                                                         |
+|                               | Systeemconfiguratiebestanden                            |
 
 (*) Je kan het insteken van de cd simuleren in het VirtualBox-venster van je VM in het menu "Devices" > "Insert Guest Additions CD image..." (of het Nederlandstalige equivalent).
 
@@ -123,86 +123,86 @@ In deze oefening leer je onderscheid maken tussen *relatieve* en *absolute paden
 
 1. Blijf in je home-directory en maak van hieruit een directory `tijdelijk/` aan onder `/tmp/`
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 2. Verwijder deze directory meteen
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 3. Maak onder je home-directory een submap aan met de naam `linux/`
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 4. Ga naar deze directory
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 5. Maak met één commando de subdirectory `a/b/` aan onder `linux/`. Als je nadien het commando `tree` geeft, moet je de gegeven uitvoer zien.
 
-        ```
-        $ COMMANDO
-        UITVOER
-        $ tree
-        .
-        └── a
-            └── b
-        2 directories, 0 files
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    $ tree
+    .
+    └── a
+    └── b
+    2 directories, 0 files
+    ```
 
 6. Verwijder directory `b/` en daarna `a/` (in twee commando's)
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 7. Maak met één commando deze directorystructuur aan.
 
-        ```
-        $ COMMANDO
-        UITVOER
-        $ tree
-        .
-        └── c
-            ├── d
-            └── e
-        3 directories, 0 files
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    $ tree
+    .
+    └── c
+    ├── d
+    └── e
+    3 directories, 0 files
+    ```
 
 8. Verwijder in één commando de directory `c/` en alle onderliggende
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 9. Maak met één commando deze directorystructuur aan. Het is de bedoeling de opdrachtregel zo kort mogelijk te maken, dus niet alle directories apart opgeven!
 
-        ```
-        $ COMMANDO
-        UITVOER
-        $ tree
-        .
-        └── f
-            ├── g
-            │   └── i
-            └── h
-                └── i
+    ```
+    $ COMMANDO
+    UITVOER
+    $ tree
+    .
+    └── f
+    ├── g
+    │   └── i
+    └── h
+        └── i
 
-        5 directories, 0 files
-        ```
+    5 directories, 0 files
+    ```
 
 Behoud deze directorystructuur voor de volgende oefeningen over bestanden.
 
@@ -210,109 +210,109 @@ Behoud deze directorystructuur voor de volgende oefeningen over bestanden.
 
 1. Maak een leeg bestand aan met de naam `file1`
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 2. Maak een *verborgen* bestand aan met de naam `hidden`. Verborgen betekent dat je het niet kan zien met een "gewone" `ls`, maar wel met de gepaste optie.
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 3. Tik volgend commando in, leg uit wat er hier precies gebeurt, wat het effect is.
 
-        ```
-        $ echo hello world > file2"
-        ```
+    ```
+    $ echo hello world > file2"
+    ```
 
-        **Antwoord:** 
+    **Antwoord:** 
 
 4. Toon de inhoud van `file2`
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 5. Kopieer `file1` naar een nieuw bestand `file3` in de huidige directory
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 6. Kopieer `file1` naar de directory `f/` (die zou je nog moeten hebben van vorige oefening)
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 7. Kopieer `file1` en file2 in één keer naar `f/g/`. Je zou de gegeven situatie moeten krijgen.
 
-        ```
-        $ COMMANDO
-        UITVOER
-        $ tree
-        .
-        ├── f
-        │   ├── file1
-        │   ├── g
-        │   │   ├── file1
-        │   │   ├── file2
-        │   │   └── i
-        │   └── h
-        │       └── i
-        ├── file1
-        ├── file2
-        └── file3
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    $ tree
+    .
+    ├── f
+    │   ├── file1
+    │   ├── g
+    │   │   ├── file1
+    │   │   ├── file2
+    │   │   └── i
+    │   └── h
+    │       └── i
+    ├── file1
+    ├── file2
+    └── file3
+    ```
 
 8. *Hernoem* `file3` naar `file4`
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 9. Verplaats `file2` naar directory `f/`
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 10. Verplaats `file1` en `file4` in één keer naar `f/h/`. Je zou de gegeven situatie moeten krijgen.
 
-        ```
-        $ COMMANDO
-        UITVOER
-        $ tree
-        .
-        └── f
-            ├── file1
-            ├── file2
-            ├── g
-            │   ├── file1
-            │   ├── file2
-            │   └── i
-            └── h
-                ├── file1
-                ├── file4
-                └── i
+    ```
+    $ COMMANDO
+    UITVOER
+    $ tree
+    .
+    └── f
+    ├── file1
+    ├── file2
+    ├── g
+    │   ├── file1
+    │   ├── file2
+    │   └── i
+    └── h
+        ├── file1
+        ├── file4
+        └── i
 
-        5 directories, 6 files
-        ```
+    5 directories, 6 files
+    ```
 
 11. Kopieer `f/h/`, inclusief de inhoud, naar een nieuwe directory `f/j/`
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 ### Pathname expansion (of *file globbing*)
 
@@ -331,45 +331,45 @@ Toon met `ls` telkens de gevraagde bestanden, niet meer en niet minder.
 
 1. Alle bestanden die beginnen met `file`
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 2. Alle bestanden die beginnen met `file`, gevolgd door één letterteken (cijfer of letter)
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 3. Alle bestanden die beginnen met `file`, gevolgd door één letter, maar geen cijfer
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 4. Alle bestanden die beginnen met `file`, gevolgd door één cijfer, maar geen letter
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 5. De bestanden `file12` t/m `file16`
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 6. Bestandern die beginnen met `file`, *niet* gevolgd door een `1`
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 ### Links
 
@@ -377,19 +377,19 @@ Maak in de directory `linux/` twee tekstbestanden aan, met naam `tekst1a` en `te
 
 1. Voor het volgende commando uit en geef de uitvoer:
 
-        ```
-        $ ls -l tekst*
-        UITVOER
-        ```
+    ```
+    $ ls -l tekst*
+    UITVOER
+    ```
 
 2. Maak een *harde link* van `tekst1a` naar `tekst1b`
 3. Maak een *symbolische link* van `tekst2a` naar `tekst2b`
 4. Voor het volgende commando uit en geef de uitvoer:
 
-        ```
-        $ ls -l tekst*
-        UITVOER
-        ```
+    ```
+    $ ls -l tekst*
+    UITVOER
+    ```
 
 5. Hoe zie je aan de uitvoer van `ls` dat `tekst1b` een harde link is en `tekst2b` een symbolische? Tip: Vergelijk met de uitvoer uit vraag 1!
 
@@ -397,17 +397,17 @@ Maak in de directory `linux/` twee tekstbestanden aan, met naam `tekst1a` en `te
 
 6. Verwijder de oorspronkelijke bestanden, `tekst1a` en `tekst2a`. Maak het commando zo kort mogelijk!
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 7. Toon opnieuw de uitvoer van `ls -l tekst*`, en bekijk de inhoud van `tekst1b` en `tekst2b`. Wat valt je op?
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
     **Antwoord**: ...
 
@@ -415,29 +415,29 @@ Maak in de directory `linux/` twee tekstbestanden aan, met naam `tekst1a` en `te
 
 1. Creëer in je home-directory een archief `linux.tar.bz2` van de directory `linux/` en alle inhoud.
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 2. Verwijder nu volledig de directory `linux/`
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 3. Toon de inhoud van het archief zonder opnieuw uit te pakken
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
 4. Pak het archief opnieuw uit in je home-directory.
 
-        ```
-        $ COMMANDO
-        UITVOER
-        ```
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
 
