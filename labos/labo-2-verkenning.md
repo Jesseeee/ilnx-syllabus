@@ -91,22 +91,22 @@
 
 Vul de tabel hieronder aan. In de linkerkolom vind je de namen van een directory, in de rechter het soort bestanden dat er in thuis hoort.
 
-| Directory                     | Inhoud                                                  |
-| :---                          | :---                                                    |
-| `/bin`, `/usr/bin`            |                                                         |
-|                               | Uitvoerbare bestanden voor systeembeheertaken           |
-| `/var`                        |                                                         |
-|                               | Tijdelijke bestanden                                    |
-| `/opt`, `/usr/local`          |                                                         |
-|                               | Home-directory van de `root` gebruiker                  |
-|                               | Home-directory van de gebruiker `student`               |
-|                               | De inhoud van de man-pages                              |
-|                               | Andere documentatie                                     |
-| `/lib`, `/usr/lib`, `lib64`, enz. |                                                     |
-|                               | De inhoud van de installatie-cd voor Guest Additions(*) |
-| `/dev`                        |                                                         |
-| `/proc`                       |                                                         |
-|                               | Systeemconfiguratiebestanden                            |
+| Directory                         | Inhoud                                                  |
+| :---                              | :---                                                    |
+| `/bin`, `/usr/bin`                | **ANTWOORD**                                            |
+| **`ANTWOORD`**                    | Uitvoerbare bestanden voor systeembeheertaken           |
+| `/var`                            | **ANTWOORD**                                            |
+| **`ANTWOORD`**                    | Tijdelijke bestanden                                    |
+| `/opt`, `/usr/local`              | **ANTWOORD**                                            |
+| **`ANTWOORD`**                    | Home-directory van de `root` gebruiker                  |
+| **`ANTWOORD`**                    | Home-directory van de gebruiker `student`               |
+| **`ANTWOORD`**                    | De inhoud van de man-pages                              |
+| **`ANTWOORD`**                    | Andere documentatie                                     |
+| `/lib`, `/usr/lib`, `lib64`, enz. | **ANTWOORD**                                            |
+| **`ANTWOORD`**                    | De inhoud van de installatie-cd voor Guest Additions(*) |
+| `/dev`                            | **ANTWOORD**                                            |
+| `/proc`                           | **ANTWOORD**                                            |
+| **`ANTWOORD`**                    | Systeemconfiguratiebestanden                            |
 
 (*) Je kan het insteken van de cd simuleren in het VirtualBox-venster van je VM in het menu "Devices" > "Insert Guest Additions CD image..." (of het Nederlandstalige equivalent).
 
