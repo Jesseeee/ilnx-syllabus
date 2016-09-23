@@ -1,8 +1,10 @@
 # Besturingssystemen - Linux
 
-In deze repository vind je de studiewijzer en oefeningen voor het onderdeel Linux-praktijk in de cursus Besturingssystemen van de opleiding professionele bachelor toegepaste informatica aan de faculteit Bedrijf en Organisatie van de Hogeschool Gent.
+In deze repository vind je de studiewijzer en oefeningen voor het onderdeel Linux-praktijk in de cursus Besturingssystemen van de opleiding professionele bachelor toegepaste informatica aan de faculteit Bedrijf en Organisatie van de Hogeschool Gent. Het is de bedoeling dat je je eigen oplossingen ook in deze repository bijhoudt. In elke labo-opdracht is plaats voorzien voor het noteren van je antwoorden.
 
-Wanneer je Linux-VM nog niet geïnstalleerd is, kan je je verslagen bijhouden op de Github website. Wanneer je een bestand opent kan je rechtsboven op het potlood-icoon klikken om bestanden te bewerken. Het bestandsformaat van de studiewijzer en labo-opgaven is [Markdown](https://daringfireball.net/projects/markdown/). Dit is een eenvoudig tekstformaat dat op Github als een mooi opgemaakte webpagina getoond wordt. Maak jezelf vertrouwd met dit formaat, en lees ook de [instructies specifiek voor Github](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/) na.
+Wanneer je Linux-VM nog niet geïnstalleerd is, kan je je verslagen rechtstreeks bijhouden op de Github website. Wanneer je een bestand opent kan je rechtsboven op het potlood-icoon klikken om bestanden te bewerken. Het bestandsformaat van de studiewijzer en labo-opgaven is [Markdown](https://daringfireball.net/projects/markdown/). Dit is een eenvoudig tekstformaat dat op Github als een mooi opgemaakte webpagina getoond wordt. Maak jezelf vertrouwd met dit formaat, en lees ook de [instructies specifiek voor Github](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/) na.
+
+Hou voor jezelf een [cheat sheet](labos/cheat-sheet.md) bij, het zal je helpen bij het beter onthouden van alle commando's die je zal bijleren.
 
 ## Gegevens student
 
