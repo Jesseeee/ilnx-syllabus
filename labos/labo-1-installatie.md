@@ -49,10 +49,11 @@ Installeer onderstaande applicaties of “packages”. Zorg er voor dat je dit z
 
 - git
 - nano
+- ShellCheck
 - vim-enhanced
 - vim-X11
 
-Installeer optioneel de “VirtualBox Guest Additions” (zie procedure in de [studiewijzer](../studiewijzer/installatie.md)).
+Installeer optioneel de “VirtualBox Guest Additions” (zie procedure in de [studiewijzer](../studiewijzer/installatie.md)). Creëer een lokale kopie van je Github repository.
 
 ### Procedure
 

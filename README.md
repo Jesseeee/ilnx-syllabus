@@ -2,6 +2,16 @@
 
 In deze repository vind je de studiewijzer en oefeningen voor het onderdeel Linux-praktijk in de cursus Besturingssystemen van de opleiding professionele bachelor toegepaste informatica aan de faculteit Bedrijf en Organisatie van de Hogeschool Gent.
 
+Wanneer je Linux-VM nog niet geïnstalleerd is, kan je je verslagen bijhouden op de Github website. Wanneer je een bestand opent kan je rechtsboven op het potlood-icoon klikken om bestanden te bewerken. Het bestandsformaat van de studiewijzer en labo-opgaven is [Markdown](https://daringfireball.net/projects/markdown/). Dit is een eenvoudig tekstformaat dat op Github als een mooi opgemaakte webpagina getoond wordt. Maak jezelf vertrouwd met dit formaat, en lees ook de [instructies specifiek voor Github](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/) na.
+
+## Gegevens student
+
+- Naam: 
+- Klasgroep: 
+- Naam van je lector: 
+- Github gebruikersnaam: 
+- URL naar je Github-repository: 
+
 ## Studiewijzer
 
 * [Praktische afspraken](studiewijzer/praktisch.md)
