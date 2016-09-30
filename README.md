@@ -27,7 +27,7 @@ Hou voor jezelf een [cheat sheet](labos/cheat-sheet.md) bij, het zal je helpen b
 ## Oefeningen
 
 * [Linux installeren](labos/labo-1-installatie.md)
-* [Linux leren kennen](labos/labo-1-installatie.md)
+* [Linux leren kennen](labos/labo-2-verkenning.md)
 * [Werken met tekst](labos/labo-3-tekst.md)
 * [Een webserver opzetten](labos/labo-4-webserver.md)
 * [Bestandspermissies](labos/labo-5-bestandspermissies.md)
