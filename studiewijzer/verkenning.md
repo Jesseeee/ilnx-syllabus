@@ -11,21 +11,21 @@
 ## Voorbereiding
 
 - Hulp zoeken
-    - Cobbaut, hst II.5, "man-pages"
+    - Cobbaut, hst III.7, "man-pages"
     - <http://explainshell.com/>: op deze website kan je een commando intikken met opties, enz. en je krijgt de relevante delen van de man-page te zien.
     - <https://linux.die.net/man/>: een uitgebreide verzameling Linux man-pages online.
     - Als je in Google "man COMMANDO" ingeeft, vind je ook snel de man-page terug.
 - Werken op de command line
     - Zie verder in de sectie "De tekstconsole"
 - De plaats van bestanden op een Linux-systeem
-    - Cobbaut, Hst II.9, “the Linux file tree”
+    - Cobbaut, Hst III.11, “the Linux file tree”
 - Werken met bestanden en directories
     - Screencast “Werken met bestanden en directories”, <http://youtu.be/QChM_j8RsWA>
-    - Cobbaut, Hst II.6, “Working with directories”
-    - Cobbaut, Hst II.7, “Working with files”
+    - Cobbaut, Hst III.8, “Working with directories”
+    - Cobbaut, Hst III.9, “Working with files”
 - Bestanden bewerken met een teksteditor
     - Zie verder in de sectie "Linux teksteditors"
-    - Cobbaut, Hst V.18, "Introduction to Vi"
+    - Cobbaut, Hst VI.22, "Introduction to Vi"
 
 ## Agenda
 
