@@ -31,11 +31,11 @@ Reguliere expressies worden ook in andere opleidingsonderdelen besproken. We ver
 ## Voorbereiding
 
 - Leren werken met streams, pipes en redirects
-    - Cobbaut, hst IV.15 “Redirection and Pipes”, pp. 115-122
+    - Cobbaut, hst V.18 “I/O redirection”, pp. 171-180
 - Zoeken met reguliere expressies
     - man-page voor reguliere expressies (`man 7 regex`)
 - Leren werken met filters
-    - Cobbaut, hst IV. 16 “Filters”, pp. 123-135
+    - Cobbaut, hst V.19 “Filters”, pp. 181-194
 
 ## Agenda
 
